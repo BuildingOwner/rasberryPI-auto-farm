@@ -1,0 +1,150 @@
+html, body{
+    height: 100%;
+}
+
+h3{
+    width: fit-content;
+    background-color: #333;
+    color: white !important;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.content-top, .content-top-right, .content-middle-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-top{
+    height: 12%;
+}
+.content-bottom{
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-middle{
+    height: 48%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.my-container {
+    display: flex;
+    height: 100%;
+    padding: 20px;
+}
+
+.form-switch{
+    padding-left: 2.9em !important;
+}
+
+.gragh-container{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content {
+    width: 75%;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.content-top{
+    padding: 20px;
+    align-items: flex-end;
+}
+
+.content-top h3{
+    font-size: 3.6em;
+}
+
+.content-top-right{
+    width: 35%;
+}
+
+.flex-align-center{
+    display: flex !important;
+    align-items: center;
+}
+
+.form-check-input{
+    transform: scale(1.5);
+}
+
+.form-check-label{
+    padding-left: 17px;
+}
+
+.auto-control, .unit-control{
+    width: 50%;
+}
+
+.auto-control{
+    font-size: 1.4em;
+}
+
+.unit-control-grid{
+    width: 60%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 15px;
+}
+.unit-control-grid button{
+    font-size: 1.4em;
+}
+
+#messages{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myCanvas{
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.flex-between{
+    display: flex;
+}
+
+.container-cam{
+    height: 48%;
+    padding: 20px;
+    background-color: #aaa;
+    border-radius: 10px;
+}
+
+.graph-distance{
+    padding: 5px;
+    background-color: #fffbf4;
+    border-radius: 10px;
+}
+
+.graph-temp{
+    padding: 5px;
+    background-color: #fff7f2;
+    border-radius: 10px;
+}
+
+.graph-humidity{
+    padding: 5px;
+    background-color: #e4faff;
+    border-radius: 10px;
+}
+
+.container-set .input-group{
+    width: 50%;
+}
