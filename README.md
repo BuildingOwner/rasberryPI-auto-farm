@@ -33,3 +33,6 @@
   - static/image.js - 로부터 받은 영상을 웹페이지에 띄워주는 모듈
   - static/mqttio.js - 웹페이지에서 mqtt의 전반적인 송수신 및 커넥션 제어를 하는 모듈
   - static/myChart.js - 차트를 그리는 모듈
+
+## 실행 화면
+![실행화면](https://github.com/BuildingOwner/rasberryPI-auto-farm/assets/106369213/d439d1f1-4299-4cc2-9f23-ab27805f02ee)
